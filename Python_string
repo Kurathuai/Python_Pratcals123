@@ -1,0 +1,7 @@
+#Given a string and you want to count how many times each character appears
+
+str1 = input ("Enter the string: ")
+d = dict()
+for c in str1:
+    d[c] = d.get(c, 0) + 1
+print(d)

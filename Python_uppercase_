@@ -1,0 +1,8 @@
+str1 = "A"
+str2 = "b"
+
+print("Checking if the string '",str1,"' is uppercased or not")
+print(str1.isupper())
+
+print("Checking if the string '",str2,"' is uppercased or not")
+print(str2.isupper())
